@@ -881,6 +881,10 @@ img {
   .header .header__logo img {
     width: 8.8125rem;
     height: 2.125rem; }
+    @media (min-width: 1200px) {
+      .header .header__logo img {
+        width: 14.375rem;
+        height: 3.5rem; } }
   .header .header__logo:hover {
     opacity: 0.8; }
   .header .header__toggle {
