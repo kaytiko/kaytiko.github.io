@@ -1278,6 +1278,46 @@ img {
         transition-duration: 0s;
         transition-property: opacity;
         will-change: opacity, transform; } }
+    @media (min-width: 768px) {
+      .intro__slider .intro__slider-item:not(.active) {
+        -webkit-animation-delay: 0.5s;
+                animation-delay: 0.5s;
+        -webkit-animation-name: slideTop;
+                animation-name: slideTop;
+        -webkit-animation-duration: 0.9s;
+                animation-duration: 0.9s;
+        -webkit-animation-timing-function: cubic-bezier(0.18, 0.54, 0.52, 0.93);
+                animation-timing-function: cubic-bezier(0.18, 0.54, 0.52, 0.93);
+        pointer-events: none; } }
+    .intro__slider .intro__slider-item:not(.active) .intro__title p {
+      -webkit-animation-name: cutTextUp;
+              animation-name: cutTextUp;
+      -webkit-animation-duration: 0.45s;
+              animation-duration: 0.45s;
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+      -webkit-animation-fill-mode: forwards;
+              animation-fill-mode: forwards; }
+    @media (min-width: 768px) {
+      .intro__slider .intro__slider-item:not(.active) .intro__button {
+        -webkit-animation-name: slideleft;
+                animation-name: slideleft;
+        -webkit-animation-duration: 0.4s;
+                animation-duration: 0.4s;
+        -webkit-animation-timing-function: ease-in-out;
+                animation-timing-function: ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+                animation-fill-mode: forwards; } }
+    .intro__slider .intro__slider-item:not(.active) .intro__image {
+      -webkit-animation-delay: 0.5s;
+              animation-delay: 0.5s;
+      -webkit-animation-name: slideToTop;
+              animation-name: slideToTop;
+      -webkit-animation-duration: 0.9s;
+              animation-duration: 0.9s;
+      -webkit-animation-timing-function: cubic-bezier(0.18, 0.54, 0.52, 0.93);
+              animation-timing-function: cubic-bezier(0.18, 0.54, 0.52, 0.93);
+      pointer-events: none; }
     .intro__slider .intro__slider-item.active {
       transition-delay: 0s;
       opacity: 1;
@@ -1325,46 +1365,6 @@ img {
       .intro__slider .intro__slider-item.active .intro__image {
         -webkit-animation: none;
                 animation: none; }
-    @media (min-width: 768px) {
-      .intro__slider .intro__slider-item:not(.active) {
-        -webkit-animation-delay: 0.5s;
-                animation-delay: 0.5s;
-        -webkit-animation-name: slideTop;
-                animation-name: slideTop;
-        -webkit-animation-duration: 0.9s;
-                animation-duration: 0.9s;
-        -webkit-animation-timing-function: cubic-bezier(0.18, 0.54, 0.52, 0.93);
-                animation-timing-function: cubic-bezier(0.18, 0.54, 0.52, 0.93);
-        pointer-events: none; } }
-    .intro__slider .intro__slider-item:not(.active) .intro__title p {
-      -webkit-animation-name: cutTextUp;
-              animation-name: cutTextUp;
-      -webkit-animation-duration: 0.45s;
-              animation-duration: 0.45s;
-      -webkit-animation-timing-function: ease-in;
-              animation-timing-function: ease-in;
-      -webkit-animation-fill-mode: forwards;
-              animation-fill-mode: forwards; }
-    @media (min-width: 768px) {
-      .intro__slider .intro__slider-item:not(.active) .intro__button {
-        -webkit-animation-name: slideleft;
-                animation-name: slideleft;
-        -webkit-animation-duration: 0.4s;
-                animation-duration: 0.4s;
-        -webkit-animation-timing-function: ease-in-out;
-                animation-timing-function: ease-in-out;
-        -webkit-animation-fill-mode: forwards;
-                animation-fill-mode: forwards; } }
-    .intro__slider .intro__slider-item:not(.active) .intro__image {
-      -webkit-animation-delay: 0.5s;
-              animation-delay: 0.5s;
-      -webkit-animation-name: slideToTop;
-              animation-name: slideToTop;
-      -webkit-animation-duration: 0.9s;
-              animation-duration: 0.9s;
-      -webkit-animation-timing-function: cubic-bezier(0.18, 0.54, 0.52, 0.93);
-              animation-timing-function: cubic-bezier(0.18, 0.54, 0.52, 0.93);
-      pointer-events: none; }
   .intro__slider .intro__text {
     grid-column: span 4;
     display: flex;
