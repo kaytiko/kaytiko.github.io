@@ -1469,6 +1469,7 @@ img {
         .slider .slider__text .slider__title {
           padding: 0; } }
       .slider .slider__text .slider__title span {
+        display: block;
         will-change: auto;
         font-size: 1.875rem;
         line-height: 2.5rem;
