@@ -1468,14 +1468,14 @@ img {
       @media (min-width: 768px) {
         .slider .slider__text .slider__title {
           padding: 0; } }
-      .slider .slider__text .slider__title p {
+      .slider .slider__text .slider__title span {
         will-change: auto;
         font-size: 1.875rem;
         line-height: 2.5rem;
         font-weight: 500;
         color: #1D1D1D; }
         @media (min-width: 1200px) {
-          .slider .slider__text .slider__title p {
+          .slider .slider__text .slider__title span {
             font-size: 2.5625rem;
             line-height: 3.125rem; } }
     .slider .slider__text .slider__button {
