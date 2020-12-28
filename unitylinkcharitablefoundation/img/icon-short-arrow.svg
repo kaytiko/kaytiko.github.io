@@ -1,6 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="40.965" height="18.818" viewBox="0 0 40.965 18.818">
-  <g transform="translate(0 0.349)">
-    <path d="M0,8.811,9.061,0l9.061,8.811" transform="translate(40.267 0) rotate(90)" fill="none" stroke="#1d1d1d" stroke-width="1"/>
-    <line x2="40.12" transform="translate(0 9.01)" fill="none" stroke="#1d1d1d" stroke-width="1"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="40.965" height="18.818"><path d="M31.456.349l8.811 9.061-8.811 9.061M0 9.359h40.12" fill="none" stroke="#1d1d1d"/></svg>
