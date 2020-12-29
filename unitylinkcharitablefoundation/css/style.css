@@ -912,7 +912,8 @@ p {
 
 img {
   max-width: 100%;
-  height: auto; }
+  height: auto;
+  aspect-ratio: attr(width)/attr(height); }
 
 .list-style-none {
   list-style: none; }
@@ -1728,11 +1729,11 @@ img {
     .numbers .numbers__item--education {
       background-color: #DAE7F1; }
       .numbers .numbers__item--education:after {
-        background-image: url(/img/icon-education.svg); }
+        background-image: url(../img/icon-education.svg); }
     .numbers .numbers__item--medicine {
       background-color: #EBFAF4; }
       .numbers .numbers__item--medicine:after {
-        background-image: url(/img/icon-medical.svg);
+        background-image: url(../img/icon-medical.svg);
         background-size: contain;
         background-repeat: no-repeat;
         background-position: top right; }
