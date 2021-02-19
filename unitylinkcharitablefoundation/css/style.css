@@ -1185,7 +1185,7 @@ img {
     display: flex;
     flex-direction: column;
     padding: 3.125rem 2.1875rem;
-    background: #DAE7F1 url(/img/mini-banner.png) no-repeat;
+    background: #DAE7F1 url(../img/mini-banner.png) no-repeat;
     background-size: cover; }
   .site-menu__title {
     max-width: 21.25rem;
